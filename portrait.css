@@ -16,6 +16,14 @@ body {
   width: 60vw;
 }
 
+.motto {
+	position: absolute;
+	top: 88vh;
+	left: 15vw;
+	width: 28vw;
+	
+}
+
 .fuori_le_mafie_wide
 {
 
