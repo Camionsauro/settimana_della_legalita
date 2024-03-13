@@ -18,7 +18,7 @@ body {
 
 .motto {
 	position: absolute;
-	top: 18vh;
+	top: 23vh;
 	left: 15vw;
 	width: 28vw;
 	
@@ -28,7 +28,7 @@ body {
 {
 
   position: absolute;
-  top: 16vh;
+  top: 14vh;
   left: 7vw;
   width: 40vw;
 }
@@ -141,7 +141,7 @@ body {
   width: 75%;
   height: 100%;
   position: absolute;
-  top: 86vh;
+  top: 110vh;
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
