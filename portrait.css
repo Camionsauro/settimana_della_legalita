@@ -1,0 +1,188 @@
+body {
+	
+  padding: 0;
+  background: linear-gradient(to right, #e1001a 60%, white 40%);
+  /*overflow: hidden;*/
+ overflow-x: hidden;
+  
+}
+
+.out_wide_logo
+{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60vw;
+}
+
+.fuori_le_mafie_wide
+{
+
+  position: absolute;
+  top: 16vh;
+  left: 7vw;
+  width: 40vw;
+}
+
+.logo_er_wide
+{
+  position: absolute;
+  top: 3vh;
+  left: 70vw;
+  width: 20vw;
+}
+
+.morrione
+{
+  position: absolute;
+  top: 8vh;
+  left: 70vw;
+  width: 12vw;
+}
+
+.programma {
+	position: absolute;
+	top: 24vh;
+	left: 70vw;
+	width: 27vw;
+	
+}
+
+.settimana_legalita
+{
+	position: absolute;
+	top: 16vh;
+	left: 70vw;
+	width: 20vw;
+}
+
+.data
+{
+	position: absolute;
+	top: 20vh;
+	left: 70vw;
+	width: 20vw;
+}
+
+
+.ipossia
+{
+	position: absolute;
+	top: 30vh;
+	left: 1vw;
+	width: 25vw;
+}
+.maremma
+{
+	position: absolute;
+	top: 30vh;
+	right: 11vw;
+	width: 25vw;
+}
+
+.finalista
+{
+	position: absolute;
+	top: 30vh;
+	left: 34vw;
+	width: 25vw;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; /* L'altezza viene adattata in base alla dimensione dei video */
+  margin: 0 auto;
+  position: absolute;
+	top: 30vh;
+}
+.video-container iframe {
+  margin: 10px 0; /* Aggiungi uno spazio tra i video */
+}
+
+
+
+
+.container {
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  top: 78vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+}
+
+.container_2 {
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  top: 140vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+}
+
+.container_podcast {
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  top: 260vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+}
+
+
+.embed {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.embed iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.embed_video {
+	padding_bottom:10px;
+	
+}
+
+
+#cookie-banner {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+#cookie-banner p {
+  margin: 0;
+}
+
+#cookie-accetta {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,198 @@
+body {
+	padding: 0;
+	background: linear-gradient(to right, #e1001a 65%, white 40%);
+	/* overflow: hidden; */
+	overflow-x: hidden;
+}
+
+.out_wide_logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60vw;
+}
+
+.fuori_le_mafie_wide {
+	position: absolute;
+	top: 50vh;
+	left: 7vw;
+	width: 40vw;
+}
+
+.programma {
+	position: absolute;
+	top: 90vh;
+	left: 70vw;
+	width: 40vw;
+	width: 13vw;
+}
+
+.logo_er_wide {
+	position: absolute;
+	top: 3vh;
+	left: 70vw;
+	width: 20vw;
+}
+
+.morrione {
+	position: absolute;
+	top: 20vh;
+	left: 70vw;
+	width: 10vw;
+}
+
+.settimana_legalita {
+	position: absolute;
+	top: 60vh;
+	left: 70vw;
+	width: 20vw;
+}
+
+.data {
+	position: absolute;
+	top: 75vh;
+	left: 70vw;
+	width: 20vw;
+}
+
+.ipossia {
+	position: absolute;
+	top: 90vh;
+	left: 5vw;
+	width: 30vw;
+	height: 35vh;
+}
+
+.maremma {
+	position: absolute;
+	top: 90vh;
+	right: 7vw;
+	width: 25vw;
+	height: 35vh;
+}
+
+.finalista {
+	position: absolute;
+	top: 90vh;
+	left: 38vw;
+	width: 25vw;
+	height: 35vh;
+}
+
+.podcast1 {
+	position: absolute;
+	top: 130vh;
+}
+
+.podcast2 {
+	position: absolute;
+	top: 230vh;
+}
+
+.video-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 75vw;
+	height: 315px; /* You can adjust the height as per your requirements */
+	margin: 0 auto;
+	position: absolute;
+	top: 92vh;
+}
+
+.video-container iframe {
+	flex: 0 0 calc(33.33% - 10px);
+	height: 100%;
+}
+
+
+.container {
+	width: 75%;
+	height: 100%;
+	position: absolute;
+	top: 150vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container_2 {
+	width: 75%;
+	height: 100%;
+	position: absolute;
+	top: 153vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container_podcast {
+	width: 75%;
+	height: 100%;
+	position: absolute;
+	top: 220vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.embed {
+	width: 33.33%;
+	height: 400px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.embed_video {
+	width: 33.33%;
+	
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.embed iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#cookie-banner {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+#cookie-banner p {
+  margin: 0;
+}
+
+#cookie-accetta {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
